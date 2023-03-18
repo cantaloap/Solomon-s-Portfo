@@ -1,0 +1,98 @@
+*{
+    padding:0%;
+    margin: 0%;
+    border-radius: 0%;
+
+}
+body{
+background-color: wheat;
+color: gray;
+}
+header{
+    padding: 25px;
+    border: 10px;
+    background-color: gray;
+    border-style: ridge;
+    margin: auto;
+    border-color: aquamarine;
+    color: whitesmoke; 
+
+}
+.Porto{
+    text-align: center;
+}
+h1{
+    text-align: center; 
+
+}
+
+nav, ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav, ul, li{ 
+/* display: inline-block; */
+list-style: none;
+ margin: 0 1em 0 0; 
+
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none; 
+    display: flex; 
+    justify-content: end;
+    
+    
+
+}
+
+
+.container{
+    display:flex;
+    align-items:center ;
+    justify-content: space-between;
+    height: 35em;
+    
+
+}
+
+.box1{
+    text-align: left;
+    padding: 15px;
+    border-left: 10px ridge aquamarine ;
+    border-bottom:10px ridge aquamarine ;
+    padding-top: 10px;
+    margin: 5px 10px;
+
+
+    }
+    .box2{
+          text-align: left;
+          padding: 15px;
+          border-left: 10px ridge aquamarine ;
+          border-bottom:10px ridge aquamarine ;
+          padding-top: 10px;
+          margin: 5px 10px;
+
+     
+     
+    
+    
+    }
+
+    .box3{
+    align-content: end;      
+    padding: 15px;
+    border-left: 10px ridge aquamarine ;
+    border-bottom:10px ridge aquamarine ;
+    padding-top: 10px;
+    margin: 5px 10px;
+       
+    }
+    
+
+
+
+
